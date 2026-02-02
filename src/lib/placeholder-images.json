@@ -1,3 +1,100 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "candidate",
+      "description": "Headshot of the main candidate",
+      "imageUrl": "https://images.unsplash.com/photo-1557734864-c78b6dfef1b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwbGVhZGVyfGVufDB8fHx8MTc3MDA0MTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student leader"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Team member 1",
+      "imageUrl": "https://images.unsplash.com/photo-1568880893176-fb2bdab44e41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzcwMDM2NTg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Team member 2",
+      "imageUrl": "https://images.unsplash.com/photo-1631131428457-3c14bdcb81d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudCUyMHNtaWxpbmd8ZW58MHx8fHwxNzY5OTQzNjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student smiling"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Team member 3",
+      "imageUrl": "https://images.unsplash.com/photo-1680534240478-08c865dc608f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBzdHVkeWluZ3xlbnwwfHx8fDE3NzAwNDE5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person studying"
+    },
+    {
+      "id": "team-member-4",
+      "description": "Team member 4",
+      "imageUrl": "https://images.unsplash.com/photo-1693011142814-aa33d7d1535c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwY2FtcHVzfGVufDB8fHx8MTc2OTk2MTEwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student campus"
+    },
+    {
+      "id": "team-member-5",
+      "description": "Team member 5",
+      "imageUrl": "https://images.unsplash.com/photo-1625441281868-759ef6590992?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWVuYWdlciUyMGdsYXNzZXN8ZW58MHx8fHwxNzcwMDQxOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teenager glasses"
+    },
+    {
+      "id": "team-member-6",
+      "description": "Team member 6",
+      "imageUrl": "https://images.unsplash.com/photo-1567168544646-208fa5d408fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50JTIwbGlicmFyeXxlbnwwfHx8fDE3Njk5MzYxMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student library"
+    },
+    {
+      "id": "team-member-7",
+      "description": "Team member 7",
+      "imageUrl": "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHN0dWRlbnR8ZW58MHx8fHwxNzcwMDM4OTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy student"
+    },
+    {
+      "id": "team-member-8",
+      "description": "Team member 8",
+      "imageUrl": "https://images.unsplash.com/photo-1460518451285-97b6aa326961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudCUyMGdyb3VwfGVufDB8fHx8MTc3MDA0MTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student group"
+    },
+    {
+      "id": "team-member-9",
+      "description": "Team member 9",
+      "imageUrl": "https://images.unsplash.com/photo-1726140871959-89036cd0d6a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx5b3VuZyUyMHBlcnNvbnxlbnwwfHx8fDE3NzAwMTQyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "young person"
+    },
+    {
+      "id": "team-member-10",
+      "description": "Team member 10",
+      "imageUrl": "https://images.unsplash.com/photo-1612536816763-78c1f4aa6f10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwYm9va3N8ZW58MHx8fHwxNzY5OTc4MDY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student books"
+    },
+    {
+      "id": "team-member-11",
+      "description": "Team member 11",
+      "imageUrl": "https://images.unsplash.com/photo-1766008122479-0bf425daecce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmVhdGl2ZSUyMHN0dWRlbnR8ZW58MHx8fHwxNzcwMDQxOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative student"
+    },
+    {
+      "id": "team-member-12",
+      "description": "Team member 12",
+      "imageUrl": "https://images.unsplash.com/photo-1732319882816-45eee81b105d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdHVkZW50JTIwbGF1Z2hpbmd8ZW58MHx8fHwxNzcwMDQxOTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student laughing"
+    },
+    {
+      "id": "team-member-13",
+      "description": "Team member 13",
+      "imageUrl": "https://images.unsplash.com/photo-1718375505724-9bcac5ac25e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwbGVhZGVyfGVufDB8fHx8MTc3MDA0MTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student leader"
+    },
+    {
+      "id": "team-member-14",
+      "description": "Team member 14",
+      "imageUrl": "https://images.unsplash.com/photo-1712249236913-dad423f9e00d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmb2N1c2VkJTIwc3R1ZGVudHxlbnwwfHx8fDE3NzAwMTIzNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "focused student"
+    },
+    {
+      "id": "team-member-15",
+      "description": "Team member 15",
+      "imageUrl": "https://images.unsplash.com/photo-1758797316117-8d133af25f8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50JTIwcG9zaW5nfGVufDB8fHx8MTc3MDA0MTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student posing"
+    }
+  ]
 }
