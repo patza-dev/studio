@@ -18,10 +18,10 @@ export default function Home() {
       <main className="w-full max-w-4xl mx-auto">
         <Tabs defaultValue="profile" className="w-full">
           <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4 h-auto">
-            <TabsTrigger value="profile"><User className="mr-2" />Profile</TabsTrigger>
-            <TabsTrigger value="team"><Users className="mr-2" />Team</TabsTrigger>
-            <TabsTrigger value="policies"><FileText className="mr-2" />Policies</TabsTrigger>
-            <TabsTrigger value="qna"><MessageCircleQuestion className="mr-2" />Q&amp;A</TabsTrigger>
+            <TabsTrigger value="profile"><User className="mr-2" />โปรไฟล์</TabsTrigger>
+            <TabsTrigger value="team"><Users className="mr-2" />สมาชิก</TabsTrigger>
+            <TabsTrigger value="policies"><FileText className="mr-2" />นโยบาย</TabsTrigger>
+            <TabsTrigger value="qna"><MessageCircleQuestion className="mr-2" />สอบถามเพิ่มเติม</TabsTrigger>
           </TabsList>
           
           <TabsContent value="profile" className="mt-6">
