@@ -1,10 +1,33 @@
 import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { policies } from "@/lib/data"
+import { Award, HeartHandshake, Scaling, Users, Lightbulb, Mic, Paintbrush, Trophy, Briefcase, PartyPopper } from 'lucide-react';
+import type { LucideProps } from "lucide-react";
+import PolicySummary from "./PolicySummary";
+
+const iconMap: { [key: string]: React.ComponentType<LucideProps> } = {
+  Award,
+  HeartHandshake,
+  Scaling,
+  Users,
+  Lightbulb,
+  Mic,
+  Paintbrush,
+  Trophy,
+  Briefcase,
+  PartyPopper,
+};
 
 export default function PolicyExplorer() {
   return (
@@ -14,10 +37,25 @@ export default function PolicyExplorer() {
         <CardDescription className="text-center">เรามีนโยบาย 10 ข้อที่จะมาพลิกโฉมโรงเรียนของเราให้ดียิ่งขึ้น</CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="text-center p-8 bg-muted/50 rounded-lg mt-4">
-          <p className="font-semibold text-lg">"เรามีนโยบาย 10 ข้อ"</p>
-          <p className="text-muted-foreground mt-2">รายละเอียดฉบับเต็มจะถูกเปิดเผยเร็วๆ นี้ โปรดติดตาม!</p>
-        </div>
+        <Accordion type="single" collapsible className="w-full">
+          {policies.map((policy, index) => {
+            const IconComponent = iconMap[policy.icon];
+            return (
+              <AccordionItem value={`item-${index}`} key={index}>
+                <AccordionTrigger className="text-left">
+                  <div className="flex items-center gap-4">
+                    {IconComponent && <IconComponent className="h-6 w-6 text-primary" />}
+                    <span className="font-semibold text-lg">{policy.title}</span>
+                  </div>
+                </AccordionTrigger>
+                <AccordionContent className="text-base pl-12 space-y-4">
+                  <p>{policy.description}</p>
+                  <PolicySummary policyText={policy.description} />
+                </AccordionContent>
+              </AccordionItem>
+            )
+          })}
+        </Accordion>
       </CardContent>
     </Card>
   )

@@ -18,29 +18,54 @@ export const team: TeamMember[] = Array.from({ length: 15 }, (_, i) => ({
 
 export const policies: Policy[] = [
   {
-    title: 'Academic Excellence Program',
+    title: 'โปรแกรมความเป็นเลิศทางวิชาการ',
     icon: 'Award',
-    description: 'We will launch a peer-to-peer tutoring network and establish dedicated study groups for all major subjects. Our goal is to provide accessible academic support for every student, helping to improve grades and comprehension across the board. We will also partner with teachers to host monthly review sessions before major exams, ensuring everyone has the resources they need to succeed.',
+    description: 'เราจะเปิดตัวเครือข่ายการสอนพิเศษแบบเพื่อนช่วยเพื่อน และจัดตั้งกลุ่มการเรียนรู้สำหรับทุกวิชาหลัก เป้าหมายของเราคือการให้การสนับสนุนทางวิชาการที่เข้าถึงได้สำหรับนักเรียนทุกคน ช่วยปรับปรุงผลการเรียนและความเข้าใจในวงกว้าง นอกจากนี้ เราจะร่วมมือกับครูเพื่อจัดช่วงทบทวนรายเดือนก่อนการสอบสำคัญ เพื่อให้แน่ใจว่าทุกคนมีทรัพยากรที่จำเป็นต่อความสำเร็จ',
   },
   {
-    title: 'Enhanced Student Wellness',
+    title: 'ส่งเสริมสุขภาวะของนักเรียน',
     icon: 'HeartHandshake',
-    description: 'Mental and physical health are paramount. We plan to introduce "Wellness Wednesdays" with activities like yoga, meditation, and stress-management workshops. We will also advocate for healthier and more diverse lunch options in the cafeteria and work to create quiet, comfortable spaces around the school where students can de-stress and relax during breaks.',
+    description: 'สุขภาพกายและสุขภาพจิตเป็นสิ่งสำคัญยิ่ง เราวางแผนที่จะเปิดตัว "Wellness Wednesdays" พร้อมกิจกรรมต่างๆ เช่น โยคะ การทำสมาธิ และเวิร์คช็อปการจัดการความเครียด นอกจากนี้ เราจะสนับสนุนให้มีตัวเลือกอาหารกลางวันที่มีประโยชน์และหลากหลายมากขึ้นในโรงอาหาร และทำงานเพื่อสร้างพื้นที่ที่เงียบสงบและสะดวกสบายรอบๆ โรงเรียน ซึ่งนักเรียนสามารถคลายเครียดและผ่อนคลายในช่วงพักได้',
   },
   {
-    title: 'Digital Transformation Initiative',
+    title: 'โครงการริเริ่มการเปลี่ยนแปลงสู่ดิจิทัล',
     icon: 'Scaling',
-    description: 'To prepare our students for a digital future, we will push for an upgrade in school technology. This includes lobbying for faster Wi-Fi, more charging stations for personal devices, and access to modern software and coding clubs. We aim to create a "Student Tech Support" team to help peers with their tech issues.',
+    description: 'เพื่อเตรียมนักเรียนของเราให้พร้อมสำหรับอนาคตดิจิทัล เราจะผลักดันให้มีการอัปเกรดเทคโนโลยีของโรงเรียน ซึ่งรวมถึงการล็อบบี้ให้มี Wi-Fi ที่เร็วขึ้น สถานีชาร์จสำหรับอุปกรณ์ส่วนตัวมากขึ้น และการเข้าถึงซอฟต์แวร์ที่ทันสมัยและชมรมเขียนโค้ด เรามุ่งมั่นที่จะสร้างทีม "Student Tech Support" เพื่อช่วยเพื่อนๆ แก้ไขปัญหาด้านเทคโนโลยี',
   },
   {
-    title: 'Vibrant Club & Community Life',
+    title: 'ชมรมและชีวิตชุมชนที่สดใส',
     icon: 'Users',
-    description: 'A strong school community is built on shared interests and activities. We will streamline the process for creating new clubs and secure more funding for existing ones. We plan to organize a "Club Fair" each semester to boost participation and host more all-school events like talent shows, movie nights, and cultural festivals to bring everyone together.',
+    description: 'ชุมชนโรงเรียนที่แข็งแกร่งสร้างขึ้นจากความสนใจและกิจกรรมร่วมกัน เราจะปรับปรุงกระบวนการสร้างชมรมใหม่ให้ง่ายขึ้น และจัดหางบประมาณเพิ่มเติมสำหรับชมรมที่มีอยู่ เราวางแผนที่จะจัด "งานแสดงชมรม" ในแต่ละภาคการศึกษาเพื่อเพิ่มการมีส่วนร่วม และจัดกิจกรรมสำหรับทั้งโรงเรียนมากขึ้น เช่น การแสดงความสามารถ คืนดูหนัง และเทศกาลวัฒนธรรมเพื่อนำทุกคนมารวมกัน',
   },
   {
-    title: 'Eco-Friendly Campus Project',
+    title: 'โครงการวิทยาเขตที่เป็นมิตรต่อสิ่งแวดล้อม',
     icon: 'Lightbulb',
-    description: 'Our campaign is committed to making our school a greener place. We will implement a comprehensive recycling program, organize campus clean-up days, and start a school garden. Our goal is to reduce waste, promote sustainability, and educate the student body on the importance of environmental responsibility.',
+    description: 'แคมเปญของเรามุ่งมั่นที่จะทำให้โรงเรียนของเราเป็นสถานที่ที่เป็นมิตรต่อสิ่งแวดล้อมมากขึ้น เราจะดำเนินโครงการรีไซเคิลอย่างครบวงจร จัดวันทำความสะอาดวิทยาเขต และเริ่มทำสวนในโรงเรียน เป้าหมายของเราคือการลดขยะ ส่งเสริมความยั่งยืน และให้ความรู้แก่นักเรียนเกี่ยวกับความสำคัญของความรับผิดชอบต่อสิ่งแวดล้อม',
+  },
+  {
+    title: 'นโยบายที่ 6: เพิ่มเสียงนักเรียน',
+    icon: 'Mic',
+    description: 'สร้างช่องทางการสื่อสารโดยตรงระหว่างนักเรียนและฝ่ายบริหารของโรงเรียนให้มากขึ้น ซึ่งรวมถึงการประชุมรับฟังความคิดเห็นอย่างสม่ำเสมอ และจัดตั้งคณะกรรมการที่นำโดยนักเรียนเพื่อทบทวนนโยบายของโรงเรียน',
+  },
+  {
+    title: 'นโยบายที่ 7: ส่งเสริมศิลปะและความคิดสร้างสรรค์',
+    icon: 'Paintbrush',
+    description: 'เพื่อส่งเสริมความคิดสร้างสรรค์ เราจะพยายามเพิ่มงบประมาณสำหรับโครงการศิลปะ ดนตรี และการละคร นอกจากนี้ เราจะจัดเทศกาลศิลปะทั่วทั้งโรงเรียนเป็นประจำทุกปีเพื่อแสดงความสามารถของนักเรียน',
+  },
+  {
+    title: 'นโยบายที่ 8: พัฒนากีฬาและกรีฑา',
+    icon: 'Trophy',
+    description: 'เราจะทำงานเพื่อปรับปรุงสิ่งอำนวยความสะดวกด้านกีฬาและดูแลให้ทุกทีมมีอุปกรณ์ที่จำเป็น นอกจากนี้ เราวางแผนที่จะแนะนำกีฬาภายในให้มากขึ้นเพื่อส่งเสริมการมีส่วนร่วมของนักเรียนทุกคน',
+  },
+  {
+    title: 'นโยบายที่ 9: เตรียมความพร้อมสู่อาชีพและมหาวิทยาลัย',
+    icon: 'Briefcase',
+    description: 'เราจะจัดเวิร์คช็อปเกี่ยวกับการเขียนเรซูเม่ ทักษะการสัมภาษณ์ และการสมัครเข้ามหาวิทยาลัย นอกจากนี้ เราจะจัดตั้งโครงการพี่เลี้ยงที่เชื่อมโยงนักเรียนกับศิษย์เก่าในสาขาต่างๆ',
+  },
+  {
+    title: 'นโยบายที่ 10: ริเริ่มสร้างสรรค์จิตวิญญาณของโรงเรียน',
+    icon: 'PartyPopper',
+    description: 'เราจะส่งเสริมจิตวิญญาณของโรงเรียนโดยการจัดกิจกรรมชุมนุมเชียร์ให้บ่อยขึ้น วันแต่งกายตามธีม และการแข่งขันระหว่างชั้นเรียนอย่างเป็นมิตรตลอดทั้งปี',
   },
 ];
 
