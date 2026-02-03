@@ -1,26 +1,29 @@
 import type { Candidate, TeamMember, Policy, FaqItem } from './definitions';
 
 export const candidate: Candidate = {
-  name: 'พร้อมพัฒน์',
-  bio: 'A passionate and dedicated student leader committed to fostering a more inclusive, innovative, and supportive school environment. With a proven track record of successful projects and a clear vision for the future, Prompat is ready to listen, act, and lead our student body towards a brighter tomorrow. Your voice, our mission.',
+  name: 'แป้ง',
+  bio: 'A passionate and dedicated student leader committed to fostering a more inclusive, innovative, and supportive school environment. With a proven track record of successful projects and a clear vision for the future, Pang is ready to listen, act, and lead our student body towards a brighter tomorrow. Your voice, our mission.',
   photoUrl: 'candidate.jpg',
 };
 
 export const platformSummary: string = 'Leading with vision, serving with heart. Ready to develop our school together.';
 
 export const team: TeamMember[] = [
-  {
-    id: 1,
-    name: 'พร้อมพัฒน์',
-    role: 'ประธานนักเรียน',
-    photoUrl: 'team1.jpg',
-  },
-  ...Array.from({ length: 14 }, (_, i) => ({
-    id: i + 2,
-    name: `สมาชิกคนที่ ${i + 2}`,
-    role: 'สมาชิก',
-    photoUrl: `team${i + 2}.jpg`,
-  }))
+  { id: 1, name: 'แป้ง', role: 'ประธานนักเรียน', photoUrl: 'team1.jpg' },
+  { id: 2, name: 'ดรีม', role: 'สมาชิก', photoUrl: 'team2.jpg' },
+  { id: 3, name: 'ฟาร์', role: 'สมาชิก', photoUrl: 'team3.jpg' },
+  { id: 4, name: 'ขวัญ', role: 'สมาชิก', photoUrl: 'team4.jpg' },
+  { id: 5, name: 'ฝ้าย', role: 'สมาชิก', photoUrl: 'team5.jpg' },
+  { id: 6, name: 'เนม', role: 'สมาชิก', photoUrl: 'team6.jpg' },
+  { id: 7, name: 'พัฒน์', role: 'สมาชิก', photoUrl: 'team7.jpg' },
+  { id: 8, name: 'วาย', role: 'สมาชิก', photoUrl: 'team8.jpg' },
+  { id: 9, name: 'ขวัญ', role: 'สมาชิก', photoUrl: 'team9.jpg' },
+  { id: 10, name: 'มะนาว', role: 'สมาชิก', photoUrl: 'team10.jpg' },
+  { id: 11, name: 'เพชร', role: 'สมาชิก', photoUrl: 'team11.jpg' },
+  { id: 12, name: 'พีค', role: 'สมาชิก', photoUrl: 'team12.jpg' },
+  { id: 13, name: 'นุ่น', role: 'สมาชิก', photoUrl: 'team13.jpg' },
+  { id: 14, name: 'น้ำ', role: 'สมาชิก', photoUrl: 'team14.jpg' },
+  { id: 15, name: 'เติ้ล', role: 'สมาชิก', photoUrl: 'team15.jpg' },
 ];
 
 
