@@ -7,7 +7,7 @@ export default function AppHeader() {
         </h1>
       </div>
       <p className="text-2xl font-medium text-foreground/80">
-        พรรคที่ <span className="font-bold text-primary px-3 py-1 bg-primary/10 rounded-full">3</span>
+        พรรคที่ <span className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">3</span>
       </p>
     </header>
   );
