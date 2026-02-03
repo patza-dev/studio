@@ -10,8 +10,8 @@ export const platformSummary: string = 'Leading with vision, serving with heart.
 
 export const team: TeamMember[] = Array.from({ length: 15 }, (_, i) => ({
   id: i + 1,
-  name: `Team Member ${i + 1}`,
-  role: i === 0 ? 'Campaign Manager' : i < 4 ? 'Policy Advisor' : i < 8 ? 'Communications' : 'Event Coordinator',
+  name: `สมาชิกคนที่ ${i + 1}`,
+  role: 'สมาชิก',
   photoUrl: `team${i + 1}.jpg`,
 }));
 

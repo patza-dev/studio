@@ -40,8 +40,8 @@ export default function TeamShowcase() {
   return (
     <div className="space-y-8">
       <div className="text-center">
-        <h2 className="text-3xl font-headline">Meet the Team</h2>
-        <p className="text-muted-foreground">The dedicated students behind the campaign.</p>
+        <h2 className="text-3xl font-headline">สมาชิกในทีม</h2>
+        <p className="text-muted-foreground">เหล่านักเรียนผู้ทุ่มเท่อยู่เบื้องหลังแคมเปญนี้</p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {team.map((member) => (
