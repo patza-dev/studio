@@ -29,7 +29,7 @@ export default function CandidateProfile() {
           </Avatar>
           <div className="flex-1 text-center sm:text-left">
             <CardTitle className="text-4xl font-headline tracking-tight text-primary-foreground bg-primary px-4 py-2 rounded-lg inline-block">พรรค พร้อมพัฒน์</CardTitle>
-            <CardDescription className="text-xl mt-2 text-foreground/80">{platformSummary}</CardDescription>
+            <CardDescription className="text-2xl font-medium mt-2 text-foreground/80">{platformSummary}</CardDescription>
           </div>
         </div>
       </CardHeader>
