@@ -28,7 +28,7 @@ export default function CandidateProfile() {
             <AvatarFallback>{candidate.name.charAt(0)}</AvatarFallback>
           </Avatar>
           <div className="flex-1 text-center sm:text-left">
-            <CardTitle className="text-4xl font-headline tracking-tight text-primary-foreground bg-primary px-4 py-2 rounded-lg inline-block">{candidate.name}</CardTitle>
+            <CardTitle className="text-4xl font-headline tracking-tight text-primary-foreground bg-primary px-4 py-2 rounded-lg inline-block">พรรค {candidate.name}</CardTitle>
             <CardDescription className="text-xl mt-2 text-foreground/80">{platformSummary}</CardDescription>
           </div>
         </div>

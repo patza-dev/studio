@@ -1,7 +1,7 @@
 import type { Candidate, TeamMember, Policy, FaqItem } from './definitions';
 
 export const candidate: Candidate = {
-  name: 'Prompat',
+  name: 'พร้อมพัฒน์',
   bio: 'A passionate and dedicated student leader committed to fostering a more inclusive, innovative, and supportive school environment. With a proven track record of successful projects and a clear vision for the future, Prompat is ready to listen, act, and lead our student body towards a brighter tomorrow. Your voice, our mission.',
   photoUrl: 'candidate.jpg',
 };
