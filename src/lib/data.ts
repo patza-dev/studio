@@ -6,7 +6,7 @@ export const candidate: Candidate = {
   photoUrl: 'candidate.jpg',
 };
 
-export const platformSummary: string = 'Leading with vision, serving with heart. Ready to develop our school together.';
+export const platformSummary: string = 'รับฟังทุกเสียง มุ่งมั่นทุกนโยบาย พร้อมพัฒน์เพื่อบ้านหลังที่สองของเรา';
 
 export const team: TeamMember[] = [
   { id: 1, name: 'แป้ง', role: 'ประธานนักเรียน', photoUrl: 'team1.jpg' },
