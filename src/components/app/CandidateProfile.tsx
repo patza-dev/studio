@@ -17,7 +17,7 @@ export default function CandidateProfile() {
     <Card className="overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
       <CardHeader className="bg-primary/10">
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-          <Avatar className="w-32 h-32 border-4 border-primary">
+          <Avatar className="w-32 h-32 border-4 border-primary rounded-lg">
             {candidateImage && 
               <AvatarImage 
                 src={candidateImage.imageUrl} 
