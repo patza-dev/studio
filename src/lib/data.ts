@@ -8,12 +8,20 @@ export const candidate: Candidate = {
 
 export const platformSummary: string = 'Leading with vision, serving with heart. Ready to develop our school together.';
 
-export const team: TeamMember[] = Array.from({ length: 15 }, (_, i) => ({
-  id: i + 1,
-  name: `สมาชิกคนที่ ${i + 1}`,
-  role: 'สมาชิก',
-  photoUrl: `team${i + 1}.jpg`,
-}));
+export const team: TeamMember[] = [
+  {
+    id: 1,
+    name: 'พร้อมพัฒน์',
+    role: 'ประธานนักเรียน',
+    photoUrl: 'team1.jpg',
+  },
+  ...Array.from({ length: 14 }, (_, i) => ({
+    id: i + 2,
+    name: `สมาชิกคนที่ ${i + 2}`,
+    role: 'สมาชิก',
+    photoUrl: `team${i + 2}.jpg`,
+  }))
+];
 
 
 export const policies: Policy[] = [
