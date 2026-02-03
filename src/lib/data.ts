@@ -2,7 +2,7 @@ import type { Candidate, TeamMember, Policy } from './definitions';
 
 export const candidate: Candidate = {
   name: 'แป้ง',
-  bio: 'A passionate and dedicated student leader committed to fostering a more inclusive, innovative, and supportive school environment. With a proven track record of successful projects and a clear vision for the future, Pang is ready to listen, act, and lead our student body towards a brighter tomorrow. Your voice, our mission.',
+  bio: "ความไว้วางใจของคุณคือสิ่งสำคัญอันดับแรกของเรา ในนาม 'พร้อมพัฒน์' เรายืนหยัดเพื่อความก้าวหน้าและการมีส่วนร่วมของทุกคน เรามุ่งมั่นที่จะรับฟังความต้องการของคุณและเปลี่ยนให้เป็นความจริง เพื่อโรงเรียนที่เป็นเหมือนบ้านสำหรับทุกคน",
   photoUrl: 'candidate.jpg',
 };
 
