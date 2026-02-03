@@ -16,8 +16,3 @@ export type Policy = {
   icon: string;
   description: string;
 };
-
-export type FaqItem = {
-  question: string;
-  answer: string;
-};

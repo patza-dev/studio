@@ -1,4 +1,4 @@
-import type { Candidate, TeamMember, Policy, FaqItem } from './definitions';
+import type { Candidate, TeamMember, Policy } from './definitions';
 
 export const candidate: Candidate = {
   name: 'แป้ง',
@@ -78,24 +78,4 @@ export const policies: Policy[] = [
     icon: 'PartyPopper',
     description: 'เราจะส่งเสริมจิตวิญญาณของโรงเรียนโดยการจัดกิจกรรมชุมนุมเชียร์ให้บ่อยขึ้น วันแต่งกายตามธีม และการแข่งขันระหว่างชั้นเรียนอย่างเป็นมิตรตลอดทั้งปี',
   },
-];
-
-
-export const faqs: FaqItem[] = [
-    {
-        question: "What is the main goal of พรรคพร้อมพัฒน์?",
-        answer: "Our main goal is to create a more supportive, innovative, and engaging school environment for every student. We want to improve academic resources, enhance student wellness, and build a stronger, more connected community."
-    },
-    {
-        question: "How will you ensure you listen to student feedback?",
-        answer: "We plan to hold monthly open forums where any student can voice their concerns and ideas. We will also set up an anonymous online feedback form and have suggestion boxes placed around the school. Your voice is crucial to our mission."
-    },
-    {
-        question: "What makes your party different from the others?",
-        answer: "Our party, 'พร้อมพัฒน์', stands for being 'Ready to Develop'. We are focused on actionable, concrete policies rather than just promises. Our diverse 15-member team brings a wide range of skills and perspectives, ensuring we represent the entire student body effectively."
-    },
-    {
-        question: "How can I get involved with the campaign?",
-        answer: "We're always looking for passionate students to help out! You can talk to any of our team members, or send us a message through the Q&A form on this website. We have roles for everything from spreading the word to helping organize events."
-    }
 ];
