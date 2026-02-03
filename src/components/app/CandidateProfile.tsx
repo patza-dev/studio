@@ -35,8 +35,8 @@ export default function CandidateProfile() {
           </div>
         </div>
       </CardHeader>
-      <CardContent className="p-6 text-lg">
-        <p className="leading-relaxed">{candidate.bio}</p>
+      <CardContent className="p-6">
+        <p className="leading-relaxed text-lg">{candidate.bio}</p>
       </CardContent>
     </Card>
   )
