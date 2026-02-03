@@ -12,20 +12,20 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { policies } from "@/lib/data"
-import { Award, HeartHandshake, Scaling, Users, Lightbulb, Mic, Paintbrush, Trophy, Briefcase, PartyPopper } from 'lucide-react';
+import { Award, HeartHandshake, ExternalLink, Users, Lightbulb, Mic, Paintbrush, Trophy, Umbrella, PartyPopper } from 'lucide-react';
 import type { LucideProps } from "lucide-react";
 import PolicySummary from "./PolicySummary";
 
 const iconMap: { [key: string]: React.ComponentType<LucideProps> } = {
   Award,
   HeartHandshake,
-  Scaling,
+  ExternalLink,
   Users,
   Lightbulb,
   Mic,
   Paintbrush,
   Trophy,
-  Briefcase,
+  Umbrella,
   PartyPopper,
 };
 
