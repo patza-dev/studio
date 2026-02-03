@@ -6,7 +6,7 @@ export default function AppHeader() {
           พร้อมพัฒน์
         </h1>
       </div>
-      <p className="text-2xl font-medium text-foreground/80">
+      <p className="text-2xl font-medium text-foreground/80 bg-primary/10 px-4 py-2 rounded-lg">
         พรรคที่ <span className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">3</span>
       </p>
     </header>
