@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function QnaForum() {
   const instagramUrl = "https://www.instagram.com/promptpath_tupp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
-  const instagramIconUrl = "https://cdn.discordapp.com/attachments/1254050393424527435/1468253253136285846/images.jpg?ex=698358e6&is=69820766&hm=f117cd2f155b14f98e71d7d107800c5221366f3a007f219d560b1cc8c334d1e1&";
+  const instagramIconUrl = "https://cdn.discordapp.com/attachments/1254050393424527435/1468254611872808992/images-removebg-preview.png?ex=69835a2a&is=698208aa&hm=49de1b4b2107143cbb5a35d55eda88df42f64881f520482cc4e7ca8255fa72e4&";
 
   return (
     <Card>
