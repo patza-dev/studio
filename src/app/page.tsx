@@ -42,7 +42,7 @@ export default function Home() {
         </Tabs>
       </main>
       <footer className="w-full max-w-4xl mx-auto text-center py-8 text-muted-foreground text-sm">
-        <p>Built with ❤️ for the student body.</p>
+        <p>Built with ❤️ for the student.</p>
         <p>พรรคพร้อมพัฒน์ - เบอร์ 3</p>
       </footer>
     </div>
