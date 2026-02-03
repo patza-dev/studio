@@ -32,21 +32,21 @@ export default function PolicySummary({ policyText }: PolicySummaryProps) {
       {!summary && !isLoading && (
          <Button onClick={handleSummarize} disabled={isLoading} variant="secondary" className="bg-accent/20 hover:bg-accent/40 text-accent-foreground">
             <WandSparkles className="mr-2 h-4 w-4" />
-            Get AI-Powered Summary
+            รับบทสรุปด้วย AI
         </Button>
       )}
 
       {isLoading && (
         <div className="flex items-center text-muted-foreground">
           <Loader className="mr-2 h-4 w-4 animate-spin" />
-          Generating summary...
+          กำลังสร้างบทสรุป...
         </div>
       )}
 
       {error && (
         <Alert variant="destructive">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle>Error</AlertTitle>
+          <AlertTitle>เกิดข้อผิดพลาด</AlertTitle>
           <AlertDescription>{error}</AlertDescription>
         </Alert>
       )}
@@ -54,7 +54,7 @@ export default function PolicySummary({ policyText }: PolicySummaryProps) {
       {summary && (
         <Alert className="bg-background">
           <WandSparkles className="h-4 w-4 text-primary" />
-          <AlertTitle className="font-semibold text-primary">AI Summary</AlertTitle>
+          <AlertTitle className="font-semibold text-primary">บทสรุปจาก AI</AlertTitle>
           <AlertDescription>
             {summary}
           </AlertDescription>
