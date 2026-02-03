@@ -28,8 +28,10 @@ export default function CandidateProfile() {
             <AvatarFallback>{candidate.name.charAt(0)}</AvatarFallback>
           </Avatar>
           <div className="flex-1 text-center sm:text-left">
-            <CardTitle className="text-4xl font-headline tracking-tight text-primary-foreground bg-primary px-4 py-2 rounded-lg inline-block">พรรค พร้อมพัฒน์</CardTitle>
-            <CardDescription className="text-2xl font-medium mt-2 text-foreground/80">{platformSummary}</CardDescription>
+            <CardTitle className="text-4xl font-headline tracking-tight text-primary-foreground bg-primary px-4 py-2 rounded-lg inline-block">
+              พรรค<span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-accent">พร้อมพัฒน์</span>
+            </CardTitle>
+            <CardDescription className="text-2xl font-bold mt-2 text-foreground/80">{platformSummary}</CardDescription>
           </div>
         </div>
       </CardHeader>
