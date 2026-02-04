@@ -3,97 +3,97 @@
     {
       "id": "candidate",
       "description": "Headshot of the main candidate, Pang",
-      "imageUrl": "f1.jpg",
+      "imageUrl": "/f1.jpg",
       "imageHint": "student leader"
     },
     {
       "id": "team-member-1",
       "description": "Team member 1, Pang",
-      "imageUrl": "p1.jpg",
+      "imageUrl": "/p1.jpg",
       "imageHint": "student leader"
     },
     {
       "id": "team-member-2",
       "description": "Team member 2, Dream",
-      "imageUrl": "p2.jpg",
+      "imageUrl": "/p2.jpg",
       "imageHint": "student smiling"
     },
     {
       "id": "team-member-3",
       "description": "Team member 3, Far",
-      "imageUrl": "p3.jpg",
+      "imageUrl": "/p3.jpg",
       "imageHint": "person studying"
     },
     {
       "id": "team-member-4",
       "description": "Team member 4, Kwan",
-      "imageUrl": "p4.jpg",
+      "imageUrl": "/p4.jpg",
       "imageHint": "student campus"
     },
     {
       "id": "team-member-5",
       "description": "Team member 5, Fai",
-      "imageUrl": "p5.jpg",
+      "imageUrl": "/p5.jpg",
       "imageHint": "teenager glasses"
     },
     {
       "id": "team-member-6",
       "description": "Team member 6, Name",
-      "imageUrl": "p6.jpg",
+      "imageUrl": "/p6.jpg",
       "imageHint": "student library"
     },
     {
       "id": "team-member-7",
       "description": "Team member 7, Pat",
-      "imageUrl": "p7.jpg",
+      "imageUrl": "/p7.jpg",
       "imageHint": "happy student"
     },
     {
       "id": "team-member-8",
       "description": "Team member 8, Y",
-      "imageUrl": "p8.jpg",
+      "imageUrl": "/p8.jpg",
       "imageHint": "student group"
     },
     {
       "id": "team-member-9",
       "description": "Team member 9, Kwan",
-      "imageUrl": "p9.jpg",
+      "imageUrl": "/p9.jpg",
       "imageHint": "young person"
     },
     {
       "id": "team-member-10",
       "description": "Team member 10, Manao",
-      "imageUrl": "p10.jpg",
+      "imageUrl": "/p10.jpg",
       "imageHint": "student books"
     },
     {
       "id": "team-member-11",
       "description": "Team member 11, Petch",
-      "imageUrl": "p11.jpg",
+      "imageUrl": "/p11.jpg",
       "imageHint": "creative student"
     },
     {
       "id": "team-member-12",
       "description": "Team member 12, Peak",
-      "imageUrl": "p12.jpg",
+      "imageUrl": "/p12.jpg",
       "imageHint": "student laughing"
     },
     {
       "id": "team-member-13",
       "description": "Team member 13, Noon",
-      "imageUrl": "p13.jpg",
+      "imageUrl": "/p13.jpg",
       "imageHint": "student leader"
     },
     {
       "id": "team-member-14",
       "description": "Team member 14, Nam",
-      "imageUrl": "p14.jpg",
+      "imageUrl": "/p14.jpg",
       "imageHint": "focused student"
     },
     {
       "id": "team-member-15",
       "description": "Team member 15, Tle",
-      "imageUrl": "p15.jpg",
+      "imageUrl": "/p15.jpg",
       "imageHint": "student posing"
     }
   ]
