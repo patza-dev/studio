@@ -9,21 +9,21 @@ export const candidate: Candidate = {
 export const platformSummary: string = 'รับฟังทุกเสียง มุ่งมั่นทุกนโยบาย พร้อมพัฒน์เพื่อบ้านหลังที่สองของเรา';
 
 export const team: TeamMember[] = [
-  { id: 1, name: 'แป้ง', role: 'ประธานนักเรียน', photoUrl: 'team1.jpg' },
-  { id: 2, name: 'ดรีม', role: 'สมาชิก', photoUrl: 'team2.jpg' },
-  { id: 3, name: 'ฟาร์', role: 'สมาชิก', photoUrl: 'team3.jpg' },
-  { id: 4, name: 'ขวัญ', role: 'สมาชิก', photoUrl: 'team4.jpg' },
-  { id: 5, name: 'ฝ้าย', role: 'สมาชิก', photoUrl: 'team5.jpg' },
-  { id: 6, name: 'เนม', role: 'สมาชิก', photoUrl: 'team6.jpg' },
-  { id: 7, name: 'พัฒน์', role: 'สมาชิก', photoUrl: 'team7.jpg' },
-  { id: 8, name: 'วาย', role: 'สมาชิก', photoUrl: 'team8.jpg' },
-  { id: 9, name: 'ขวัญ', role: 'สมาชิก', photoUrl: 'team9.jpg' },
-  { id: 10, name: 'มะนาว', role: 'สมาชิก', photoUrl: 'team10.jpg' },
-  { id: 11, name: 'เพชร', role: 'สมาชิก', photoUrl: 'team11.jpg' },
-  { id: 12, name: 'พีค', role: 'สมาชิก', photoUrl: 'team12.jpg' },
-  { id: 13, name: 'นุ่น', role: 'สมาชิก', photoUrl: 'team13.jpg' },
-  { id: 14, name: 'น้ำ', role: 'สมาชิก', photoUrl: 'team14.jpg' },
-  { id: 15, name: 'เติ้ล', role: 'สมาชิก', photoUrl: 'team15.jpg' },
+  { id: 1, name: 'แป้ง', role: 'ประธานนักเรียน', photoUrl: '/p1.jpg' },
+  { id: 2, name: 'ดรีม', role: 'สมาชิก', photoUrl: '/p2.jpg' },
+  { id: 3, name: 'ฟาร์', role: 'สมาชิก', photoUrl: '/p3.jpg' },
+  { id: 4, name: 'ขวัญ', role: 'สมาชิก', photoUrl: '/p4.jpg' },
+  { id: 5, name: 'ฝ้าย', role: 'สมาชิก', photoUrl: '/p5.jpg' },
+  { id: 6, name: 'เนม', role: 'สมาชิก', photoUrl: '/p6.jpg' },
+  { id: 7, name: 'พัฒน์', role: 'สมาชิก', photoUrl: '/p7.jpg' },
+  { id: 8, name: 'วาย', role: 'สมาชิก', photoUrl: '/p8.jpg' },
+  { id: 9, name: 'ขวัญ', role: 'สมาชิก', photoUrl: '/p9.jpg' },
+  { id: 10, name: 'มะนาว', role: 'สมาชิก', photoUrl: '/p10.jpg' },
+  { id: 11, name: 'เพชร', role: 'สมาชิก', photoUrl: '/p11.jpg' },
+  { id: 12, name: 'พีค', role: 'สมาชิก', photoUrl: '/p12.jpg' },
+  { id: 13, name: 'นุ่น', role: 'สมาชิก', photoUrl: '/p13.jpg' },
+  { id: 14, name: 'น้ำ', role: 'สมาชิก', photoUrl: '/p14.jpg' },
+  { id: 15, name: 'เติ้ล', role: 'สมาชิก', photoUrl: '/p15.jpg' },
 ];
 
 
