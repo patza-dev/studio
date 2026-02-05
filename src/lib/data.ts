@@ -22,8 +22,8 @@ export const team: TeamMember[] = [
   { id: 11, name: 'เพชร', role: 'สมาชิก', photoUrl: '/p11.jpg' },
   { id: 12, name: 'พีค', role: 'สมาชิก', photoUrl: '/p12.jpg' },
   { id: 13, name: 'นุ่น', role: 'สมาชิก', photoUrl: '/p13.jpg' },
-  { id: 14, name: 'น้ำ', role: 'สมาชิก', photoUrl: '/p14.jpg' },
-  { id: 15, name: 'เติ้ล', role: 'สมาชิก', photoUrl: '/p15.jpg' },
+  { id: 14, name: 'น้ำ', role: 'สมาชิก', photoUrl: '/p15.jpg' },
+  { id: 15, name: 'เติ้ล', role: 'สมาชิก', photoUrl: '/p14.jpg' },
 ];
 
 
